@@ -5,12 +5,12 @@ module.exports = {
   ],
   theme: {
 
-    
-    extend: {colors: {
-      
-      'purple': '#36013F',
-      
-    },},
+    extend: {
+      fontFamily: {
+        greatvibes: ['"Great Vibes"', 'cursive'], 
+        playfair: ['"Playfair Display"', 'serif'], // For text1 and text2
+      },
+    },
   },
   plugins: [],
 }
