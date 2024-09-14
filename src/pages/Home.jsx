@@ -76,45 +76,45 @@ function Home() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsSpinning(false);
-        }, 2000); // 2 seconds spin duration
+        }, 3000); // 2 seconds spin duration
         return () => clearTimeout(timer);
     }, []);
 
     return (
         <>
-            <div className="relative flex justify-center bg-[#b88f8a] items-center h-screen p-4">
-                <button onClick={handleImage1Click} className="focus:outline-none">
-                    {/* Image 1 - Top Left (NTNU) */}
+            <div className="relative flex justify-center bg-[#E0C2BE] items-center h-screen p-4">
+                <button onClick={handleImage1Click} className="  focus:outline-none">
+                    
                     <img
                         src="ntnu.png"
                         alt="University Building"
-                        className={`w-52 h-44 object-cover rounded-3xl absolute transform -translate-x-1/2 -translate-y-1/2  top-[18%] sm:left-[79%] lg:left-[49%] z-20 ${visibleImages1 >= 1 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2  top-[20%] left-[79%] lg:left-[49%] z-20 ${visibleImages1 >= 1 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
-                    {/* Image 2 - Top Center Left (Tailwind) */}
+                    
                     <img
                         src="newtailwind.png"
                         alt="Tailwind Logo"
-                        className={`w-52 h-44 object-cover rounded-3xl absolute transform -translate-x-1/2 -translate-y-1/2 top-[49%]  sm:left-[79%] lg:left-[70%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[6deg] z-40 ${visibleImages1 >= 3 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[47%] left-[79%] lg:left-[66%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[6deg] z-40 ${visibleImages1 >= 3 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
-                    {/* Image 3 - Top Center Right (React) */}
+                    
                     <img
                         src="newreact.png"
                         alt="React Logo"
-                        className={`w-52 h-44 object-cover rounded-3xl absolute transform -translate-x-1/2 -translate-y-1/2 top-[28%] sm:left-[79%] lg:left-[62%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[-4deg] z-30 ${visibleImages1 >= 2 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[30%] left-[79%] lg:left-[60%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[-4deg] z-30 ${visibleImages1 >= 2 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
-                    {/* Image 4 - Top Right (AI) */}
+                    
                     <img
                         src="ai.png"
                         alt="AI Graphic"
-                        className={`w-52 h-44 object-cover rounded-3xl absolute transform -translate-x-1/2 -translate-y-1/2 top-[70%] sm:left-[79%] lg:left-[62%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[-15deg] z-50 ${visibleImages1 >= 4 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[65%] left-[79%] lg:left-[60%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[-15deg] z-50 ${visibleImages1 >= 4 ? 'opacity-100' : 'opacity-25'}`}
                     />
                 </button>
                 
                 {isImage1Clicked && (
-                    <div className="absolute text-lg lg:text-base sm:text-sm lg:top-[10%] sm:top-[30%] sm:left-[35%] lg:left-[72%] z-50 text-black w-1/4 font-playfair">
+                    <div className="absolute text-xs lg:text-base sm:text-sm lg:top-[10%] sm:top-[30%] sm:left-[37%] lg:left-[72%] z-50 text-black w-1/4 font-playfair">                  
                         <div className="text-black">
                             {text1.slice(0, visibleText1).join(" ")}
                         </div>
@@ -122,45 +122,45 @@ function Home() {
                 )}
 
                 <button onClick={handleImage2Click} className="focus:outline-none">
-                    {/* Image 5 - Bottom Right (Swimming) */}
+                    
                     <img
                         src="newswiming.jpg"
                         alt="Swimming"
-                        className={`w-52 h-44 object-cover rounded-3xl absolute transform -translate-x-1/2 -translate-y-1/2 sm:top-[18%] lg:top-[70%] sm:left-[20%] lg:left-[35%] sm:rotate-[0deg] lg:rotate-[15deg] z-70 ${visibleImages2 >= 3 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[18%] lg:top-[65%] left-[20%] lg:left-[37%] sm:rotate-[0deg] lg:rotate-[15deg] z-70 ${visibleImages2 >= 3 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
-                    {/* Image 6 - Bottom (Family Silhouette) */}
+                   
                     <img
                         src="newfamily.jpg"
                         alt="Family Silhouette"
-                        className={`w-52 h-44 object-cover rounded-3xl absolute transform -translate-x-1/2 -translate-y-1/2 sm:top-[49%] lg:top-[79%] sm:left-[20%] lg:left-[48%] sm:rotate-[0deg] lg:rotate-[5deg] z-60 ${visibleImages2 >= 4 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[49%]  lg:top-[72%] left-[20%] lg:left-[48%] sm:rotate-[0deg] lg:rotate-[5deg] z-60 ${visibleImages2 >= 4 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
-                    {/* Image 8 - Left (Shopping) */}
+                   
                     <img
                         src="shopping.png"
                         alt="Shopping"
-                        className={`w-52 h-44 object-cover rounded-3xl absolute transform -translate-x-1/2 -translate-y-1/2 sm:top-[28%] lg:top-[29%] sm:left-[20%] lg:left-[37%] sm:rotate-[0deg] lg:rotate-[5deg] z-10 ${visibleImages2 >= 1 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[28%]  lg:top-[30%] left-[20%] lg:left-[38%] sm:rotate-[0deg] lg:rotate-[5deg] z-10 ${visibleImages2 >= 1 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
-                    {/* Image 9 - Top Left (Fashion Design) */}
+                   
                     <img
                         src="fashion.png"
                         alt="Fashion Design"
-                        className={`w-52 h-44 object-cover rounded-3xl absolute transform -translate-x-1/2 -translate-y-1/2 sm:top-[70%] lg:top-[50%] sm:left-[20%] lg:left-[31%] sm:rotate-[0deg] lg:rotate-[-7deg] z-90 ${visibleImages2 >= 2 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[70%] lg:top-[47%] left-[20%] lg:left-[33%] sm:rotate-[0deg] lg:rotate-[-7deg] z-90 ${visibleImages2 >= 2 ? 'opacity-100' : 'opacity-25'}`}
                     />
                 </button>
                 
                 {isImage2Clicked && (
-                    <div className="absolute text-lg lg:text-base sm:text-sm sm:top-[30%] sm:left-[35%] lg:top-[10%] lg:left-[2%] z-50 text-black w-1/4 font-playfair">
+                    <div className="absolute lg:text-base text-xs sm:text-sm sm:top-[30%] sm:left-[37%] lg:top-[10%]  lg:left-[2%] z-50 text-black w-1/4 font-playfair">
                         <p className="text-black">
                             {text2.slice(0, visibleText2).join(" ")}
                         </p>
                     </div>
                 )}
 
-                {/* Name with spinning animation */}
-                <h1  className={`absolute text-center sm:text-3xl lg:text-6xl font-semibold text-black font-greatvibes lg:top-[44%] sm:top-[20%] sm:left-[37%] lg:left-[40%] z-20 ${isSpinning ? 'animate-ping' : 'animate-pulse'}`} style={{ animationDuration: '5s' }}>
+               
+                <h1  className={`absolute text-center text-lg sm:text-3xl lg:text-5xl font-semibold text-black font-greatvibes lg:top-[44%] top-[23%] sm:top-[23%] left-[38%] lg:left-[42%] z-20 ${isSpinning ? 'animate-ping' : 'animate-pulse'}`} style={{ animationDuration: '5s' }}>
                         Hoda Nikpour
                 </h1>
             </div>
