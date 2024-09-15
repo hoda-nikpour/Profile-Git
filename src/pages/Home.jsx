@@ -88,28 +88,28 @@ function Home() {
                     <img
                         src="ntnu.png"
                         alt="University Building"
-                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2  top-[20%] left-[79%] lg:left-[49%] z-20 ${visibleImages1 >= 1 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-32 h-28 sm:w-44 sm:h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2  top-[20%] left-[79%] lg:left-[49%] z-20 ${visibleImages1 >= 1 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
                     
                     <img
                         src="newtailwind.png"
                         alt="Tailwind Logo"
-                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[47%] left-[79%] lg:left-[66%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[6deg] z-40 ${visibleImages1 >= 3 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-32 h-28 sm:w-44 sm:h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[47%] left-[79%] lg:left-[66%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[6deg] z-40 ${visibleImages1 >= 3 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
                     
                     <img
                         src="newreact.png"
                         alt="React Logo"
-                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[30%] left-[79%] lg:left-[60%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[-4deg] z-30 ${visibleImages1 >= 2 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-32 h-28 sm:w-44 sm:h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[30%] left-[79%] lg:left-[60%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[-4deg] z-30 ${visibleImages1 >= 2 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
                     
                     <img
                         src="ai.png"
                         alt="AI Graphic"
-                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[65%] left-[79%] lg:left-[60%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[-15deg] z-50 ${visibleImages1 >= 4 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-32 h-28 sm:w-44 sm:h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[65%] left-[79%] lg:left-[60%] sm:rotate-[0deg] md:rotate-[0deg] lg:rotate-[-15deg] z-50 ${visibleImages1 >= 4 ? 'opacity-100' : 'opacity-25'}`}
                     />
                 </button>
                 
@@ -126,28 +126,28 @@ function Home() {
                     <img
                         src="newswiming.jpg"
                         alt="Swimming"
-                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[18%] lg:top-[65%] left-[20%] lg:left-[37%] sm:rotate-[0deg] lg:rotate-[15deg] z-70 ${visibleImages2 >= 3 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-32 h-28 sm:w-44 sm:h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[18%] lg:top-[65%] left-[20%] lg:left-[37%] sm:rotate-[0deg] lg:rotate-[15deg] z-70 ${visibleImages2 >= 3 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
                    
                     <img
                         src="newfamily.jpg"
                         alt="Family Silhouette"
-                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[49%]  lg:top-[72%] left-[20%] lg:left-[48%] sm:rotate-[0deg] lg:rotate-[5deg] z-60 ${visibleImages2 >= 4 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-32 h-28 sm:w-44 sm:h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[49%]  lg:top-[72%] left-[20%] lg:left-[48%] sm:rotate-[0deg] lg:rotate-[5deg] z-60 ${visibleImages2 >= 4 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
                    
                     <img
                         src="shopping.png"
                         alt="Shopping"
-                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[28%]  lg:top-[30%] left-[20%] lg:left-[38%] sm:rotate-[0deg] lg:rotate-[5deg] z-10 ${visibleImages2 >= 1 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-32 h-28 sm:w-44 sm:h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[28%]  lg:top-[30%] left-[20%] lg:left-[38%] sm:rotate-[0deg] lg:rotate-[5deg] z-10 ${visibleImages2 >= 1 ? 'opacity-100' : 'opacity-25'}`}
                     />
 
                    
                     <img
                         src="fashion.png"
                         alt="Fashion Design"
-                        className={`w-44 h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[70%] lg:top-[47%] left-[20%] lg:left-[33%] sm:rotate-[0deg] lg:rotate-[-7deg] z-90 ${visibleImages2 >= 2 ? 'opacity-100' : 'opacity-25'}`}
+                        className={`w-32 h-28 sm:w-44 sm:h-36 object-cover rounded-3xl hover:opacity-100 hover:scale-110 absolute transform -translate-x-1/2 -translate-y-1/2 top-[70%] lg:top-[47%] left-[20%] lg:left-[33%] sm:rotate-[0deg] lg:rotate-[-7deg] z-90 ${visibleImages2 >= 2 ? 'opacity-100' : 'opacity-25'}`}
                     />
                 </button>
                 
